@@ -6,6 +6,10 @@ body {
   -webkit-text-size-adjust: 100%;
   zoom: 1;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+  @media (prefers-color-scheme: dark) {
+    color: white;
+  }
 }
 
 header p strong {
@@ -18,6 +22,11 @@ header p strong {
     color: white;
     padding: 2rem;
     font-weight: bold;
+
+    @media (prefers-color-scheme: dark) {
+      background-color: white;
+      color: black;
+    }
 }
 
 a,a:visited {
@@ -27,6 +36,10 @@ a,a:visited {
   &:hover {
     color: dodgerblue;
   }
+
+  @media (prefers-color-scheme: dark) {
+    color: white;
+  } 
 }
 
 a.active {
@@ -34,6 +47,11 @@ a.active {
     padding: 0.5rem;
     color: white;
     font-weight: bold;
+
+    @media (prefers-color-scheme: dark) {
+      background: white;
+      color: black;
+    }
 }
 
 blockquote {
@@ -50,6 +68,11 @@ blockquote {
   footer {
     font-size: 90%;
     margin: 1rem 0 0 0;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    border-left-color: white;
+    background-color: #202020;
   }
 }
 
@@ -74,6 +97,10 @@ pre {
   overflow: auto;
   padding: 1em;
   width: 100%;
+  
+  @media (prefers-color-scheme: dark) {
+    background: white;
+  }
 }
 
 .date {

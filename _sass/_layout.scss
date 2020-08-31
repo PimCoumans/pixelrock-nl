@@ -8,6 +8,10 @@ body {
     margin: 0 auto;
     max-width: 50rem;
     padding: 1rem;
+
+    @media (prefers-color-scheme: dark) {
+        background-color: #141414;
+    }
 }
 
 strong, b, h1, h2, h3, h4 {
@@ -20,6 +24,10 @@ hr {
     height: 2px;
     margin: 2rem 0;
     width: 100%;
+
+    @media (prefers-color-scheme: dark) {
+        background: white;
+    }
 }
 
 table {
@@ -29,6 +37,10 @@ table {
 
     tr {
         border-bottom: 1px solid black;
+
+        @media (prefers-color-scheme: dark) {
+            border-bottom-color: white;
+        }
     }
 
     td {
@@ -36,7 +48,13 @@ table {
     }
 }
 
-img {
+img, video {
+    width: 500px;
+    max-width: 100%;
+    margin: 0.5rem 0;
+}
+
+.full-image {
     width: 100%;
     margin: 0.5rem 0;
 }

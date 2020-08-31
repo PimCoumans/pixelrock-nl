@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Building OK Video"
+title:  "Making OK Video(s)"
 date:   2019-03-27 16:41:24 +0200
-summary: How OK Video came to be
+summary: Where I go into the challenges of creating a snappy vine-style recording app
 ---
-***Disclaimer:** This article was written as a draft for a talk about some of the technology involved with making OK Video. It's far from complete and hopefully I will get around to finishing it at some point.*
+>**Disclaimer:** This article was written as a draft for a talk about some of the technology involved with making OK Video. It's far from complete and hopefully I will get around to finishing it at some point.
 
 ## How it began
 Early 2017, I saw a tweet by Tom DesLongchamp that peaked my interest. You should look him up, he makes amazing stuff, [tomdeslongchamp.com](http://tomdeslongchamp.com) and I'm a fan of his since Vine (RIP).

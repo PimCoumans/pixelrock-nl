@@ -21,10 +21,11 @@
 site: pixelrock
 url: https://pimcoumans.netlify.com
 title: pixelrock
-description: Portfolio and blog by Pim Coumans
+description: portfolio and blog by pim coumans
 twitter:
   username: pimcoumans
   card: summary
+github_username:  PimCoumans
 
 permalink: pretty
 
@@ -84,14 +85,6 @@ defaults:
       image: true
 
 
-title: pixelrock
-email: pim@pixelrock.nl
-description: >- # this means to ignore newlines until "baseurl:"
-  Portfolio and blog by Pim Coumans
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://pimcoumans.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: pimcoumans
-github_username:  PimCoumans
 
 # Exclude from processing.
 # The following items will not be processed, by default.

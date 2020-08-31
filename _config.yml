@@ -18,6 +18,72 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+site: pixelrock
+url: https://pimcoumans.netlify.com
+title: pixelrock
+description: Portfolio and blog by Pim Coumans
+twitter:
+  username: pimcoumans
+  card: summary
+
+permalink: pretty
+
+
+paginate:            1000
+paginate_path:       "/page:num/"
+baseurl:             ""
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  projects:
+    output: true
+    permalink: /projects/:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+      
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
+
+
 title: pixelrock
 email: pim@pixelrock.nl
 description: >- # this means to ignore newlines until "baseurl:"
@@ -26,11 +92,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pimcoumans.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: pimcoumans
 github_username:  PimCoumans
-
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.

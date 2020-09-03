@@ -9,7 +9,7 @@ date:   2020-09-03 12:00:00 +0200
 
 ## The game
 
-In September 2015 I released my first mobile game. I named Jumpy Wall, lifting on the already less popular 'verby noun' trend for simple and addictive mobiles games, inspired by Flappy Bird and Crossy Road. The game features one-touch controls to wall jump your way up, collection gems and avoiding obstacles. The scope of the games was deliberately left very small, with the simplest control scheme I could think of: tap to jump, hold down your finger to slowly slide down each wall.
+In September 2015 I released my first mobile game. I named Jumpy Wall, lifting on the already less popular 'verby noun' trend for simple and addictive mobiles games, inspired by Flappy Bird and Crossy Road. The game features one-touch controls to wall jump your way up, collecting gems and avoiding obstacles. The scope of the games was deliberately left very small, with the simplest control scheme I could think of: tap to jump, hold down your finger to slowly slide down each wall.
 
 {% include image.html url="/assets/jumpywall-pim-coumans.jpg" alt="Pim Coumans behind his desk working on Jumpy Wall in 2015" caption="Where the magic happened, back in 2015" %}
 

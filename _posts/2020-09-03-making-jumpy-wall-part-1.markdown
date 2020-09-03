@@ -41,7 +41,7 @@ By minimizing the complexity of the level design, I made it possible for the lev
 
 {% include video.html url="/assets/jumpy-vine-3.mp4" caption="Simplifying the level design" %}
 
-As you can see in the videos, after getting hit by spikes the character falls down. But I broke a bit of expected gameplay by moving the camera down along with it. I've always hated the idea of the bottom of the screen being deadly too, as it was just dictated by the camera moving up. So in this game I allowed the character to go back down, and I you got really high, you'd see the character fall all the way back down. Too me that felt way better than letter your character just falling out of the frame with an "oops you're dead" screen.
+As you can see in the videos, after getting hit by spikes the character falls down. But I broke a bit of expected gameplay by moving the camera down along with it. I've always hated the idea of the bottom of the screen being deadly too, as it was just dictated by the camera moving up. So in this game I allowed the character to go back down, and if you got really high, you'd see the character fall all the way back down. Too me that felt way better than letter your character just falling out of the frame with an "oops you're dead" screen.
 
 ## The eye
 

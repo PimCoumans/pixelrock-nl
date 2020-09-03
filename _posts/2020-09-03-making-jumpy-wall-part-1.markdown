@@ -17,7 +17,7 @@ The visuals of the game are the most notable. Every time the character on the sc
 
 Trying to emulate the success of Crossy Road I implemented unlockables but with color schemes instead of characters. Each of these color schemes could be bought with an in-app purchases or you could try to unlock one randomly by trading in a few collected gems. Every now and then (following the same pattern used in Crossy Road) you'd get a notification that you got free gems to try to unlock more color schemes, or you could watch an ad every now and then to get a little extra.
 
-Jumpy Wall launched on September 3rd, 2015 with a very brief and small success. It was my foray into solo game development and I wanted to prove my skills and learn how to not only develop a game, but also finish it and release it into the world. For me Jumpy Wall has been a great success.
+Jumpy Wall launched on September 3rd, 2015 with a very brief and small success. It was stab at solo game development and I wanted to prove my skills and learn how to not only develop a game, but also finish it and release it into the world. For me Jumpy Wall has been a great success.
 
 ## How it started
 
@@ -69,4 +69,5 @@ Finally, the less exciting but still very necessary pieces needed to be done: in
 
 I'm really glad I got to spend half a year working only on this little project. Learning Unity, diving deep into systems I've never built before (like the dynamic music) and feeling the excitement of actually releasing it too. And now, 5 years later, I feel really proud of what I have accomplished as my first solo project.
 
-If you enjoyed reading this, please let me know!
+If you enjoyed reading this, please let me know! You can [tweet at me](https://twitter.com/pimcoumans)
+or [email me](mailto:pim@pixelrock.nl) but please don't spam me <3

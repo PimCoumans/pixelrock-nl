@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 site: pixelrock
-url: https://pimcoumans.netlify.com
+url: https://pixelrock.blog
 title: pixelrock
 description: portfolio and blog by pim coumans
 twitter:
@@ -28,7 +28,6 @@ twitter:
 github_username:  PimCoumans
 
 permalink: pretty
-
 
 paginate:            1000
 paginate_path:       "/page:num/"

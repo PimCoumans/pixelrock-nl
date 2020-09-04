@@ -59,6 +59,8 @@ I wanted to take this one step further and see if it was possible to randomize e
 
 When I was playing with having an event trigger the color change, [somebody](https://twitter.com/bitbrain_/status/588236841746354177) suggested to have it change on impact with a wall. That was the final missing piece of the puzzle.
 
+To create more color schemes I asked my friend [Ron](http://roerbak.net) for help. He made (and named) most of the color schemes available in the game today.
+
 ## The rest
 
 After that, everything was 'just' finishing the game. I ended up spending a lot of time into over-engineering some aspects of the project, like how the pixel graphics are rendered and scaled on screen and the dynamic music system that goes faster as you climb higher. I'll go into these systems in laters posts.

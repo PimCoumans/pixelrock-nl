@@ -6,7 +6,9 @@ layout: default
 <article role="article">
   {% if project.image  %}
   <a href="{{ site.baseurl }}{{ project.url }}">
-    <img src="{{ site.baseurl }}{{ project.image }}" class="article-image" alt="{{ project.title }} logo" />
+    <img
+      src="{{ site.baseurl }}{{ project.image }}"
+      class="article-image{% if project.ios %} squircle-mask{% endif %}" alt="{{ project.title }} logo" />
   </a>
   {% endif %}
   <h2><a href="{{ site.baseurl }}{{ project.url }}">

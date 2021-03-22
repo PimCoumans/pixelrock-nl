@@ -9,15 +9,15 @@ date:   2020-09-03 12:00:00 +0200
 
 ## The game
 
-In September 2015 I released my first mobile game. I named Jumpy Wall, lifting on the already less popular 'verby noun' trend for simple and addictive mobiles games, inspired by Flappy Bird and Crossy Road. The game features one-touch controls to wall jump your way up, collecting gems and avoiding obstacles. The scope of the games was deliberately left very small, with the simplest control scheme I could think of: tap to jump, hold down your finger to slowly slide down each wall.
+In September 2015 I released my first mobile game. I named it Jumpy Wall, lifting on the already less popular 'verby noun' trend for simple and addictive mobiles games, inspired by Flappy Bird and Crossy Road. The game features one-touch controls to wall jump your way up, collecting gems and avoiding obstacles. The scope of the game was deliberately left very small, with the simplest control scheme I could think of: tap to jump, hold down your finger to slowly slide down each wall.
 
 {% include image.html url="/assets/jumpywall-pim-coumans.jpg" alt="Pim Coumans behind his desk working on Jumpy Wall in 2015" caption="Where the magic happened, back in 2015" %}
 
-The visuals of the game are the most notable. Every time the character on the screen hits a wall the colors for all the elements on screen are randomized. While this may sound disorienting, the simple pixel art style of the game makes all individual elements very recognizable and the changing colors made the gameplay rather iconic.
+The visuals of the game are the most notable, every time the character on the screen hits a wall the colors for all the elements on screen are randomized. While this may sound disorienting, the simple pixel art style of the game makes all individual elements very recognizable and the changing colors made the gameplay rather iconic.
 
-Trying to emulate the success of Crossy Road I implemented unlockables but with color schemes instead of characters. Each of these color schemes could be bought with an in-app purchases or you could try to unlock one randomly by trading in a few collected gems. Every now and then (following the same pattern used in Crossy Road) you'd get a notification that you got free gems to try to unlock more color schemes, or you could watch an ad every now and then to get a little extra.
+Trying to emulate the success of Crossy Road I implemented unlockables but with color schemes instead of playable characters. Each of these color schemes could be bought with an in-app purchase or you could try to unlock one randomly by trading in a few collected gems. On specific intervals (following the same pattern used in Crossy Road) you’d get a notification that you got free gems to try to unlock more color schemes, or you could watch an ad every now and then to get a little extra.
 
-Jumpy Wall launched on September 3rd, 2015 with a very brief and small success. It was a stab at solo game development and I wanted to prove my skills and learn how to not only develop a game, but also finish it and release it into the world. For me Jumpy Wall has been a great success.
+Jumpy Wall launched on September 3rd of 2015 with a very brief and small success. It was a first stab at solo game development and I wanted to prove my skills. Next to learning how to develop a game, I also needed to learn to finish a game and release it out into the world. For me personally, Jumpy Wall has been a great success.
 
 ## How it started
 

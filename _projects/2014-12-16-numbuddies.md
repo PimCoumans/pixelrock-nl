@@ -3,7 +3,7 @@ layout: project
 title: NumBuddies
 description: A game about getting up in numbers
 summary: Cute, challenging puzzle game about making increasingly longer chains of numbers
-category: mobile-game
+category: mobile game
 image: /assets/project-numbuddies.png
 ios: true
 ---

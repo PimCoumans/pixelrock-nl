@@ -6,6 +6,8 @@ date:   2020-09-03 12:00:00 +0200
 ---
 
 >This is the first part of my series on making [Jumpy Wall](https://jumpywall.com){:target="_blank"}, an endless wall jumper for [iOS](https://itunes.apple.com/us/app/jumpy-wall-endless-wall-jumper/id986693325?l=en&mt=8){:target="_blank"} and [Android](https://play.google.com/store/apps/details?id=nl.pixelrock.jumpywall&utm_source=jumpywall.com&utm_campaign=website){:target="_blank"}. In this part I share the story behind the game and how the project evolved over time.
+>
+>- [Part 2]({% post_url 2020-09-04-making-jumpy-wall-part-2 %}) Dynamic drum machine with variable bpm and custom synth for the bass and melody
 
 ## The game
 

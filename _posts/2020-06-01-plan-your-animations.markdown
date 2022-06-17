@@ -1,25 +1,28 @@
 ---
 layout: post
-title:  "Chain multiple UIView animations"
+title:  "Chain multiple UIView animations, the easy way"
 date:   2022-06-07 00:00:00 +0200
 summary: How to perform multiple UIView animations in sequence with AnimationPlanner
 ---
-# Chain multiple UIView animations, the easy way
 
-Superfluous animations, I love them. For [OK Video](https://okvideo.app)’s latest update I wanted to create pretty involved animations any while starting on building them I had a though -- a though that usually ends in way too much effort:
+Superfluous animations, I love them.
 
-> This should be made easier
+For [OK Video](https://okvideo.app)’s latest update I wanted to create some pretty involved animations any while starting on building them I had a thought -- a though that usually ends in a lot a cursing:
 
-Every time this thought pops into my head, I end up diving deep into a rabbit hole. This time I allowed myself to get distracted because the idea of making a little animation library sounded like too much fun to pass up on.
+> This should be made easier...
+
+Every time this thought pops into my head, I end up diving deep into a rabbit hole, getting lost in details about stuff I‘d never heard about before. This time I allowed myself to get distracted because the idea of making a little animation library sounded like too much fun to pass up on. Here‘s the end-result of what I had to create a whole animation libary for.
 
 {% include video.html url="/assets/ok-video/unlock-projects.mov" caption="Unlock animation of projects after completing in-app purchase" %}
 
-## End result
+## Enter: AnimationPlanner
 
-- spoiler, here it is: [AnimationPlanner](https://github.com/PimCoumans/AnimationPlanner)
+![Animation Planner logo](https://github.com/PimCoumans/AnimationPlanner/raw/main/Assets/AnimationPlanner.png)
+
+- spoiler, you can find it over here: [AnimationPlanner](https://github.com/PimCoumans/AnimationPlanner)
 
 
-After shipping the update to OK Video I went back to revisit my library and give it some well-deserved attention. I was gently nudged to try an approach using Swift's result builders and I went for it. Creating a sequence animation in code now looks as simple as:
+After shipping the update to OK Video I went back to revisit my library and give it some well-deserved attention. I was [gently nudged](https://twitter.com/harshil/status/1516421012367323140) to try an approach using Swift‘s result builders and I just went for it. Two excrusiating but fun weeks layer, creating a little sequence animation in code now looks as simple as:
 
 ```swift
 AnimationPlanner.plan {
@@ -51,6 +54,8 @@ AnimationPlanner.plan {
 ```
 
 The nice-looking code above results in the following animation sequence. Yes, really.
-<p align="center">
+
+![Animation planner sample animation](https://raw.githubusercontent.com/PimCoumans/AnimationPlanner/main/Assets/sample-app.gif)
+<!-- <p align="center">
     <img src="https://raw.githubusercontent.com/PimCoumans/AnimationPlanner/main/Assets/sample-app.gif" width="293" height="443" />
-</p>
+</p> -->

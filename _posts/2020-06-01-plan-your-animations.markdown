@@ -12,9 +12,7 @@ Superfluous animations, I love them. For [OK Video](https://okvideo.app)’s lat
 
 Every time this thought pops into my head, I end up diving deep into a rabbit hole. This time I allowed myself to get distracted because the idea of making a little animation library sounded like too much fun to pass up on.
 
-![animation of project transition](../favicon.ico)
-
-*Transition animtions to and from the new projects screen*
+{% include video.html url="/assets/ok-video/unlock-projects.mov" caption="Unlock animation of projects after completing in-app purchase" %}
 
 ## End result
 

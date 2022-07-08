@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Chain multiple UIView animations, the easy way"
-date:   2022-06-07 00:00:00 +0200
+title: "Chain multiple UIView animations, the easy way"
+date: 2022-06-07 00:00:00 +0200
 summary: How to perform multiple UIView animations in sequence with AnimationPlanner
 ---
 
@@ -21,8 +21,7 @@ Every time this thought pops into my head, I end up diving deep into a rabbit ho
 
 - spoiler, you can find it over here: [AnimationPlanner](https://github.com/PimCoumans/AnimationPlanner)
 
-
-After shipping the update to OK Video I went back to revisit my library and give it some well-deserved attention. I was [gently nudged](https://twitter.com/harshil/status/1516421012367323140) to try an approach using Swift‘s result builders and I just went for it. Two excrusiating but fun weeks layer, creating a little sequence animation in code now looks as simple as:
+After shipping the update to OK Video I went back to revisit my library and give it some well-deserved attention. I was [gently nudged](https://twitter.com/harshil/status/1516421012367323140) to try an approach using Swift‘s result builders and I just went for it. Two excruciating but fun weeks layer, creating a little sequence animation in code now looks as simple as:
 
 ```swift
 AnimationPlanner.plan {
@@ -56,6 +55,7 @@ AnimationPlanner.plan {
 The nice-looking code above results in the following animation sequence. Yes, really.
 
 ![Animation planner sample animation](https://raw.githubusercontent.com/PimCoumans/AnimationPlanner/main/Assets/sample-app.gif)
+
 <!-- <p align="center">
     <img src="https://raw.githubusercontent.com/PimCoumans/AnimationPlanner/main/Assets/sample-app.gif" width="293" height="443" />
 </p> -->

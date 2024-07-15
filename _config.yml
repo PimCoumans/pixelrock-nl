@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -25,21 +25,27 @@ description: portfolio and blog by pim coumans
 twitter:
   username: pimcoumans
   card: summary
-github_username:  PimCoumans
+github_username: PimCoumans
 
 permalink: pretty
 
-paginate:            1000
-paginate_path:       "/page:num/"
-baseurl:             ""
-  
+paginate: 1000
+paginate_path: "/page:num/"
+baseurl: ""
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
 
 sass:
-  sass_dir:          _sass
-  style:            :compressed
+  sass_dir: _sass
+  style: :compressed
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
 
 plugins:
   - jekyll-paginate
@@ -57,34 +63,28 @@ collections:
   projects:
     output: true
     permalink: /projects/:slug
-  
+
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-  -
-    scope:
+  - scope:
       path: ""
       type: "projects"
     values:
       layout: "project"
-      
+
   - scope:
       path: "assets/images"
     values:
       image: true
-
-
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

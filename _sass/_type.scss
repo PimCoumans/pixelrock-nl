@@ -5,7 +5,8 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-text-size-adjust: 100%;
   zoom: 1;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
   @media (prefers-color-scheme: dark) {
     color: white;
@@ -13,23 +14,24 @@ body {
 }
 
 header p strong {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .post-title {
-    background: black;
-    margin: 1rem 0;
-    color: white;
-    padding: 2rem;
-    font-weight: bold;
+  background: black;
+  margin: 1rem 0;
+  color: white;
+  padding: 2rem;
+  font-weight: bold;
 
-    @media (prefers-color-scheme: dark) {
-      background-color: white;
-      color: black;
-    }
+  @media (prefers-color-scheme: dark) {
+    background-color: white;
+    color: black;
+  }
 }
 
-a,a:visited {
+a,
+a:visited {
   color: black;
   font-weight: bold;
 
@@ -39,19 +41,19 @@ a,a:visited {
 
   @media (prefers-color-scheme: dark) {
     color: white;
-  } 
+  }
 }
 
 a.active {
-    background: black;
-    padding: 0.5rem;
-    color: white;
-    font-weight: bold;
+  background: black;
+  padding: 0.5rem;
+  color: white;
+  font-weight: bold;
 
-    @media (prefers-color-scheme: dark) {
-      background: white;
-      color: black;
-    }
+  @media (prefers-color-scheme: dark) {
+    background: white;
+    color: black;
+  }
 }
 
 blockquote {
@@ -69,7 +71,7 @@ blockquote {
     font-size: 90%;
     margin: 1rem 0 0 0;
   }
-  
+
   @media (prefers-color-scheme: dark) {
     border-left-color: white;
     background-color: #202020;
@@ -86,9 +88,26 @@ dl {
   }
 }
 
-code, pre {
-	font-family: San Francisco Mono,Monaco,"Consolas","Lucida Console","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-	font-size: 92%;
+code,
+pre {
+  font-family: San Francisco Mono, Monaco, "Consolas", "Lucida Console",
+    "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+  font-size: 92%;
+}
+
+p > {
+  code,
+  pre {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    border-radius: 0.25em;
+    color: rgb(45, 45, 45);
+    background: rgb(209, 209, 209);
+    @media (prefers-color-scheme: dark) {
+      color: rgb(209, 209, 209);
+      background: rgb(45, 45, 45);
+    }
+  }
 }
 
 pre {
@@ -97,10 +116,6 @@ pre {
   overflow: auto;
   padding: 1em;
   width: 100%;
-  
-  @media (prefers-color-scheme: dark) {
-    background: white;
-  }
 }
 
 .date {

@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Verby Nouns: a Jumpy Wall Story - Part 1: A New Hope"
+title: 'Verby Nouns: a Jumpy Wall Story'
 summary: Where I tell you about the story behind my first game and how the project evolved over time.
-date:   2020-09-03 12:00:00 +0200
+date: 2020-09-03 12:00:00 +0200
 ---
 
->This is the first part of my series on making [Jumpy Wall](https://jumpywall.com){:target="_blank"}, an endless wall jumper for [iOS](https://itunes.apple.com/us/app/jumpy-wall-endless-wall-jumper/id986693325?l=en&mt=8){:target="_blank"} and [Android](https://play.google.com/store/apps/details?id=nl.pixelrock.jumpywall&utm_source=jumpywall.com&utm_campaign=website){:target="_blank"}. In this part I share the story behind the game and how the project evolved over time.
+<!-- >This is the first part of my series on making [Jumpy Wall](https://jumpywall.com){:target="_blank"}, an endless wall jumper for [iOS](https://itunes.apple.com/us/app/jumpy-wall-endless-wall-jumper/id986693325?l=en&mt=8){:target="_blank"} and [Android](https://play.google.com/store/apps/details?id=nl.pixelrock.jumpywall&utm_source=jumpywall.com&utm_campaign=website){:target="_blank"}. In this part I share the story behind the game and how the project evolved over time. -->
 
 ## The game
 
@@ -57,19 +57,19 @@ I wanted to take this one step further and see if it was possible to randomize e
 
 {% include video.html url="/assets/jumpy-vine-5.mp4" caption="Changing colors at a set interval" %}
 
-When I was playing with having an event trigger the color change, [somebody](https://twitter.com/bitbrain_/status/588236841746354177){:target="_blank"} suggested to have it change on impact with a wall. That was the final missing piece of the puzzle.
+When I was playing with having an event trigger the color change, [somebody](https://twitter.com/bitbrain_/status/588236841746354177){:target="\_blank"} suggested to have it change on impact with a wall. That was the final missing piece of the puzzle.
 
-To create more color schemes I asked my friend [Ron](http://roerbak.net){:target="_blank"} for help. He made (and named) most of the color schemes available in the game today.
+To create more color schemes I asked my friend [Ron](http://roerbak.net){:target="\_blank"} for help. He made (and named) most of the color schemes available in the game today.
 
 ## The rest
 
 After that, everything was 'just' finishing the game. I ended up spending a lot of time into over-engineering some aspects of the project, like how the pixel graphics are rendered and scaled on screen and the dynamic music system that goes faster as you climb higher. I'll go into these systems in laters posts.
 
-Finally, the less exciting but still very necessary pieces needed to be done: in-app purchases, ads, high-scores and achievements and sharing. And of course [the trailer](https://www.youtube.com/watch?v=Q1GKzQTiDtY){:target="_blank"}. I might talk more about how this is made with only in-game footage and only editing too.
+Finally, the less exciting but still very necessary pieces needed to be done: in-app purchases, ads, high-scores and achievements and sharing. And of course [the trailer](https://www.youtube.com/watch?v=Q1GKzQTiDtY){:target="\_blank"}. I might talk more about how this is made with only in-game footage and only editing too.
 
 ## Final thoughts
 
 I'm really glad I got to spend half a year working only on this little project. Learning Unity, diving deep into systems I've never built before (like the dynamic music) and feeling the excitement of actually releasing it too. And now, 5 years later, I feel really proud of what I have accomplished as my first solo project.
 
-If you enjoyed reading this, please let me know! You can [tweet at me](https://twitter.com/pimcoumans){:target="_blank"}
-or [email me](mailto:pim@pixelrock.nl){:target="_blank"} but please don't spam me <3
+If you enjoyed reading this, please let me know! You can [tweet at me](https://twitter.com/pimcoumans){:target="\_blank"}
+or [email me](mailto:pim@pixelrock.nl){:target="\_blank"} but please don't spam me <3

@@ -52,6 +52,7 @@ plugins:
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-target-blank
 
 collections:
   pages:

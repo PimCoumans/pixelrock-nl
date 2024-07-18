@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Hello Again, OK Video
+title: The New OK Video: More Editing Features
 # date: 2024-07-25 00:00:24 +0200
-summary: OK Video has been rewritten and stuff
+summary: OK Video has been completely rewritten and gotten so much more capable
 ---
 
 {% include image.html url="/assets/ok-video/okvideo-header.png" %}
 
-Some exciting news: OK Video — my video app you should definitely try — has received a huge update with a bunch of new features! It’s literally a completely new app and I couldn’t be more proud of the result.
+Some exciting news: OK Video — my video app you should definitely try — has received a huge update with a bunch of new features! It’s literally a completely new app and I couldn’t be more proud of the result. Everything you know and love is still there, recording your videos is just as easy as it ever was. But now, you know, better!
 
 Read on if you want to hear more about all this, but of course you can [check it out yourself](https://okvideo.app/download) right now!
 
@@ -15,9 +15,9 @@ Read on if you want to hear more about all this, but of course you can [check it
 
 OK Video [started out]({% post_url 2019-03-27-making-ok-video %}) as a fun hobby project that got more serious along the way. The initial goal was — and still is — to make an easy hold-to-record camera app that just allows you to create unlimited video sequences and getting out of your face as soon as possible.
 
-Starting with a very, VERY basic app I slowly added more features in my spare time. As with most side projects that get worked on intermittently, along the way the project gained significant technical debt and its foundation ended up being held together by ever increasing layers of duct tape. I wanted to add new features, but working on this project no longer sparked joy.
+Starting with a very, VERY basic app I slowly added more features in my spare time. As with most side projects that get worked on intermittently, along the way the project gained significant technical debt and its foundation ended up being held together by ever increasing layers of duct tape. I wanted to build new features, but working on this project no longer sparked joy.
 
-The sensible solution would be to take some time and address the main pain points in the app’s codebase — slowly restructuring and modernizing the app in the process — but that didn’t sound like fun at all. I just wanted to start over and build the _whole app_ again, from scratch. That won’t take too long, right?
+The sensible solution would be to take some time to address the main pain points in the app’s codebase — slowly restructuring and modernizing the app in the process — but that didn’t sound like fun at all. I just wanted to start over and build the _whole app_ again, from scratch. That won’t take too long, right?
 
 _Narrater: it did_
 
@@ -27,7 +27,7 @@ _Narrater: it did_
 
 Almost a year-and-a-half later, it’s done. OK Video version 10.0. Painstakingly rebuilt, piece by piece, adding and improving many features in the process. Just this update alone is officially my biggest solo project to date. I’m extremely happy with result and I sincerely hope you will like it too.
 
-Please allow me to take you through all the new features.
+Please allow me to take you through all the shiny new things.
 
 ## Cleaner UI, Chunky Buttons, Colorful Menus
 
@@ -35,15 +35,15 @@ Please allow me to take you through all the new features.
 
 I've come to really enjoy whimsical, playful interfaces. App designers can learn a lot from the playfulness of UIs shown in most Nintendo games. Considering OK Video isn’t a very serious app, why should its dialogs be? There’s also a few easter eggs hidden in the app, have you found any yet?
 
-## Improved Editor
+## Evolved Editor
 
 {% include image.html url="/assets/ok-video/okvideo-editor.png" alt="Screenshot of OK Video showing the improved editor and all its new features" caption="The editor received some much requested editing features" %}
 
 It’s hard to imagine OK Video existed for over three years without any editing functionality besides deleting the last clip. The dedicated editor that was released in December 2020 started with just reordering and deleting clips.
 
-Luckily editing in OK Video is now much more full-featured. Firstly, when opening the editor the video player subtly scales down to make room for the timeline that pops in from the bottom. Each clip in the timeline shows multiple thumbnails — unbelievable, I know.
+Luckily editing in OK Video is now much more full-featured. Firstly, the video player subtly scales down when opening the editor to make room for the timeline that pops in. Each clip in the timeline shows multiple thumbnails — unbelievable, I know.
 
-All the actions you can do with a selected clip are neatly displayed at the bottom, with the most requested feature sitting proudly in the center: trimming!
+All the actions you can do with a selected clip are neatly displayed at the bottom, with the most requested feature sitting proudly in the middle: trimming!
 
 {% include image.html url="/assets/ok-video/okvideo-trimming.jpg" alt="Cropped screenshot of the editor’s timeline showing a clip in the trimming state" caption="Trimming happens right in the timeline with an expanded view of the selected clip" %}
 

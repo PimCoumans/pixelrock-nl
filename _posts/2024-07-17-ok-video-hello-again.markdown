@@ -5,31 +5,37 @@ title: Hello Again, OK Video
 summary: OK Video has been rewritten and stuff
 ---
 
-OK Video [started]({% post_url 2019-03-27-making-ok-video %}) out as a fun hobby project that got more serious along the way. The initial goal was — and still is! — to make an easy hold-to-record camera app that just allows you to create unlimited video sequences and getting out of your face as soon as possible.
+{% include image.html url="/assets/ok-video/okvideo-header.png" %}
 
-Starting with a very, VERY basic app I slowly added more features in my spare time between paid jobs. As with most side projects that get worked on intermittently, along the way the project gained significant technical debt and its foundation ended up being held together by ever increasing layers of duct tape.
+Some exciting news: OK Video — my video app you should definitely try — has received a huge update with a bunch of new features! It’s literally a completely new app and I couldn’t be more proud of the result.
+
+Read on if you want to hear more about all this, but of course you can [check it out yourself](https://okvideo.app/download) right now!
+
+# A Little Backstory
+
+OK Video [started out]({% post_url 2019-03-27-making-ok-video %}) as a fun hobby project that got more serious along the way. The initial goal was — and still is — to make an easy hold-to-record camera app that just allows you to create unlimited video sequences and getting out of your face as soon as possible.
+
+Starting with a very, VERY basic app I slowly added more features in my spare time. As with most side projects that get worked on intermittently, along the way the project gained significant technical debt and its foundation ended up being held together by ever increasing layers of duct tape. I wanted to add new features, but working on this project no longer sparked joy.
 
 The sensible solution would be to take some time and address the main pain points in the app’s codebase — slowly restructuring and modernizing the app in the process — but that didn’t sound like fun at all. I just wanted to start over and build the _whole app_ again, from scratch. That won’t take too long, right?
 
 _Narrater: it did_
 
-{% include image.html url="/assets/ok-video/rewriting-okvideo.jpg" alt="iMessage conversation from February 2023, stating I'm rewriting OK Video" caption="I think I was hoping they’d talk me out of it" %}
+{% include image.html url="/assets/ok-video/rewriting-okvideo.jpg" alt="iMessage conversation from February 2023, stating I'm rewriting OK Video" %}
 
 # Introducing: The New OK Video
 
-> Before reading this, why not check out the app yourself. [Go get it now!](https://okvideo.app/download)
-
-Almost a year-and-a-half later, it’s done. OK Video version 10.0. Painstakingly rebuilt, piece by piece, adding and improving many features in the process. Just this update alone is officially my biggest solo project to date. I’m extremely proud of the result and I sincerely hope you will like it too.
+Almost a year-and-a-half later, it’s done. OK Video version 10.0. Painstakingly rebuilt, piece by piece, adding and improving many features in the process. Just this update alone is officially my biggest solo project to date. I’m extremely happy with result and I sincerely hope you will like it too.
 
 Please allow me to take you through all the new features.
 
-### Cleaner UI, Chunky Buttons, Colorful Menus
+## Cleaner UI, Chunky Buttons, Colorful Menus
 
 {% include image.html url="/assets/ok-video/okvideo-delete-panel.png" alt="Screenshot of OK Video showing the confirmation panel to delete all clips" caption="Colorful, chuncky, just the right amount of whimsy" %}
 
 I've come to really enjoy whimsical, playful interfaces. App designers can learn a lot from the playfulness of UIs shown in most Nintendo games. Considering OK Video isn’t a very serious app, why should its dialogs be? There’s also a few easter eggs hidden in the app, have you found any yet?
 
-### Improved Editor
+## Improved Editor
 
 {% include image.html url="/assets/ok-video/okvideo-editor.png" alt="Screenshot of OK Video showing the improved editor and all its new features" caption="The editor received some much requested editing features" %}
 
@@ -43,7 +49,7 @@ All the actions you can do with a selected clip are neatly displayed at the bott
 
 Yes you read that right, you can now change the timing of your clips. Just drag the left or right handle while in the trimming mode to change the start and end times respectively. Combined with the duplicate action it kinda, sorta, gives you the option to split clips.
 
-### Zoom Control
+## Zoom Control
 
 {% include image.html url="/assets/ok-video/okvideo-zoom.png" alt="Screenshot of OK Video showing refreshed camera interface with the new zoom control" caption="That large zoom control at the bottom lets you quickly change zoom levels" %}
 
@@ -51,11 +57,11 @@ With this update it’s finally possible to zoom in before starting a recording.
 
 {% include video.html url="/assets/ok-video/okvideo-zoom-control.mp4" caption="Cropped screen recording of the new Zoom Control in action (click to play)" %}
 
-### Self Timer
+## Self Timer
 
 The Self Timer feature lets you record a clip without having to keep hold of the screen, giving you a hands-free mode of sorts. Just — safely — put your phone down somewhere, make sure its pointed in the right direction and focused on the right point and select the cute little timer icon in the main menu. It’ll keep recording until you tap the screen so make sure you don’t leave it going for too long!
 
-### Onboarding Tutorial
+## Onboarding Tutorial
 
 {% include image.html url="/assets/ok-video/okvideo-tutorial.png" alt="Screenshot of the first step in the new tutorial" %}
 
@@ -63,7 +69,7 @@ When launching OK Video for the very first time, new users are greeted with a fr
 
 If you already had the app installed, you can see it in action by selecting ‘Show Tutorial Again’ in Settings.
 
-### Widgets
+## Widgets
 
 {% include image.html url="/assets/ok-video/okvideo-widgets.png" alt="Screenshot of an iPhone’s homescreen featuring multiple OK Video widgets providing quick access to its projects" caption="Widgets! Fill your screen with all of them!" %}
 
@@ -73,7 +79,7 @@ Now you can go straight to one of your OK Video projects right from your homescr
 
 An even smallest widget can be added your lock screen. It’s just the app’s logo and tapping it allows you to immediately opens the app from wherever you are.
 
-### Anything Else?
+## Anything Else?
 
 Here’s a list of all the other new stuff worth mentioning:
 
@@ -86,12 +92,12 @@ Here’s a list of all the other new stuff worth mentioning:
 - **Per-Project Settings** are remembered, like camera orientation, Flash, and Ghost mode
 - **Gratuitous Purchase Animations** added for the ‘Remove Watermark’ and ‘Unlock Editor’ in-app purchase (will write about these in the near future!)
 
-### Closing Thoughts
+# Closing Thoughts
 
-That was quite the update! Thanks for reading all this! Want more? Make sure to out the official website, [https://okvideo.app](okvideo.app), and feel free to share it with anyone! The update is available right now and anybody with an iPhone can download it using [this link](https://okvideo.app/download)!
+That was quite the update! Thanks for reading all this! If you want to see more, make sure to check out the official website, [okvideo.app](https://okvideo.app), and feel free to share it with anyone! The update is available right now and anybody with an iPhone can download it using [this link](https://okvideo.app/download).
 
 Some of you iOS developers probably are wondering if this brand-new app is written in SwiftUI and I’m proud to announce: No! It’s all still 100% pure, old-fashioned, homegrown UIKit.
 
-I’ve taken some cues from SwiftUI though and came up with an MVVM-type architecture with a lot of reactive components added in. What framework? My own of course: [DidUpdate](https://github.com/PimCoumans/DidUpdate).
+I’ve taken some cues from SwiftUI though and came up with an MVVM-type architecture built upon a reactive framework. What framework? My own of course: [DidUpdate](https://github.com/PimCoumans/DidUpdate).
 
 All non-trivial animations are driven my animation framework [AnimationPlanner](https://github.com/PimCoumans/AnimationPlanner) which I initially created to [animate the Projects unlock animation]({% post_url 2022-06-07-plan-your-animations %}).

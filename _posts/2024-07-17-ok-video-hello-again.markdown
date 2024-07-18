@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The New OK Video: More Editing Features
+title: Hello Again, OK Video
 date: 2024-07-17 00:00:24 +0200
 summary: OK Video has been completely rewritten and gotten so much more capable
 ---

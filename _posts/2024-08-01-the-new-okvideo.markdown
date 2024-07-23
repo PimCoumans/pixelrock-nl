@@ -130,3 +130,12 @@ Some of you iOS developers probably are wondering if this brand-new app is writt
 I’ve taken some cues from SwiftUI though and came up with an MVVM-like architecture built upon a reactive framework. What framework? My own of course: [DidUpdate](https://github.com/PimCoumans/DidUpdate).
 
 All non-trivial animations are driven my animation framework [AnimationPlanner](https://github.com/PimCoumans/AnimationPlanner) which I initially created to [animate the Projects unlock animation]({% post_url 2022-06-07-plan-your-animations %}).
+
+See you later!
+
+Pim Coumans
+
+- [@pimc@mastodon.social](https://mastodon.social/@pimc)
+- [@pimco.bsky.social](https://bsky.app/profile/pimco.bsky.social)
+- [@pimcoumans (twitter)](https://twitter.com/pimcoumans)
+- [@pimstagram (threads/insta)](https://www.threads.net/@pimstagram)

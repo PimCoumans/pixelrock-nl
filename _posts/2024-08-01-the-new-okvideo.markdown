@@ -19,10 +19,10 @@ Read on if you want to hear more about all this, but of course you can [check it
 - [What’s New](#whatsnew)
 - [UI Update](#cleaner-ui)
 - [Evolved Editor](#evolved-editor)
+- [Better Playback](#playback-control)
 - [Zoom Control](#zoom-control)
 - [Self Timer](#self-timer)
 - [Widgets](#widgets)
-- [Playback Control](#playback-control)
 - [Onboarding Tutorial](#tutorial)
 - [More Changes](#more)
 - [Closing Thoughts](#closing-thoughts)
@@ -67,6 +67,14 @@ All the actions you can do with a selected clip are neatly displayed at the bott
 
 Yes you read that right: you can now change the timing of your clips. Just drag the left or right handle while in the trimming mode to change the start and end times respectively. Combined with the duplicate action it kinda, sorta, gives you the option to split clips.
 
+## Better Playback {#playback-control}
+
+Previewing your project in OK Video has been pretty bare bones, just allowing you to start or stop playback of the whole video or just the last two clips. With this update, playback has been improved with these new features:
+
+- **Auto-resuming playback:** After interruptions — e.g. app backgrounded, getting an important notification — your preview picks up where it left off instead of stopping the preview altogether.
+- **Swipe-to-Seek:** Horizontally swipe the screen during playback to quickly seek through your project.
+- **Play next/previous clip:** Tap the left or right edge of the screen to immediately seek to the previous or next clip.
+
 ## Zoom Control {#zoom-control}
 
 {% include image.html url="/assets/ok-video/okvideo-zoom.png" alt="Screenshot of OK Video showing refreshed camera interface with the new zoom control" caption="That large zoom control at the bottom lets you quickly change zoom levels" %}
@@ -90,14 +98,6 @@ Now you can go straight to one of your OK Video projects right from your homescr
 {% include image.html url="/assets/ok-video/okvideo-lockscreen.jpg" alt="Screenshot of an iPhone’s locks screen with a small OK Video icon that opens the app" caption="You can even open OK Video from your lock screen!" %}
 
 An even smaller widget can be added your lock screen. It’s just the app’s logo and tapping it allows you to immediately opens the app from wherever you are.
-
-## Playback Control {#playback-control}
-
-Previewing your project in OK Video has been pretty bare bones, just allowing you to start or stop playback of the whole video or just the last two clips. With this update, playback has been improved with these new features:
-
-- **Auto-resuming playback:** After interruptions — e.g. app backgrounded, getting an important notification — your preview picks up where it left off instead of stopping the preview altogether.
-- **Swipe-to-Seek:** Horizontally swipe the screen during playback to quickly seek through your project.
-- **Play next/previous clip:** Tap the left or right edge of the screen to immediately seek to the previous or next clip.
 
 ## Onboarding Tutorial {#tutorial}
 

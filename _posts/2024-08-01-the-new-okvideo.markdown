@@ -117,8 +117,9 @@ Here’s a list of all the other new stuff worth mentioning:
 - **Ghost Mode with First Frame:** Most convenient while making a timelapse, align your shots with the very first frame of your project — instead of the last — so subsequent shots never drift.
 - **Focus Mode:** Instead of being dismissed after a single tap, it now allows you to keep tapping to find the right focus and exposure point.
 - **Share Single Clip:** Long-press on a clip in the Editor and tap ‘Share’ to manually share just that clip.
-- **Per-Project Settings** are remembered, like camera orientation, Flash, and Ghost mode
+- **Per-Project Settings** are remembered, like camera orientation, Flash, and Ghost mode.
 - **Gratuitous Purchase Animations:** Celebrations shown after purchasing the ‘Remove Watermark’ and ‘Unlock Editor’ in-app purchases (will write about these in the near future!)
+- **Revamped Settings Screen** with a new About page and the option to contact me through an online feedback form.
 
 # Closing Thoughts {#closing-thoughts}
 

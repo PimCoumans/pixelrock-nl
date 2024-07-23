@@ -7,9 +7,9 @@ summary: OK Video has been completely rewritten and gotten so much more capable
 
 {% include image.html url="/assets/ok-video/okvideo-header.png" %}
 
-Just a little after celebrating its 7th birthday, [OK Video](https://okvideo.app) — the little free video app you should definitely try — gets a sizable update. Not only introducing a whole heap of new editing features, overall the app should now work much smoother and feel more complete.
+Just a few months after celebrating its 7th birthday, [OK Video](https://okvideo.app) — the free little video app you should definitely try — has received the biggest update yet. Not only introducing a whole heap of new editing features, overall the app should now work much smoother and feel more complete.
 
-Everything you know and love is still there, recording your videos is just as easy as it ever was. But now, you know, better!
+Everything you know and love is still there, recording your videos just by holding the screen is just as easy as it ever was. But now, you know, better!
 
 Read on if you want to hear more about all this, but of course you can [check it out yourself](https://okvideo.app/download) right now!
 

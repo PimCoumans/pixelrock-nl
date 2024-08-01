@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chain multiple UIView animations, the easy way"
+title: 'Chain multiple UIView animations, the easy way'
 date: 2022-06-07 00:00:00 +0200
 summary: How to perform multiple UIView animations in sequence with AnimationPlanner
 ---
@@ -11,7 +11,7 @@ For [OK Video](https://okvideo.app)’s latest update I wanted to create some pr
 
 > This should be made easier..
 
-Every time this thought pops into my head, I end up diving deep into a rabbit hole, getting lost in details about stuff I‘d never heard about before. This time I allowed myself to get distracted because the idea of making a little animation library sounded like too much fun to pass up on. Here‘s the animation I end up building and for which I definitely totally had to create a whole animation library _(hit the play button in the center)_:
+Every time this thought pops into my head, I end up diving deep into a rabbit hole, getting lost in details about stuff I‘d never heard about before. This time I allowed myself to get distracted because the idea of making a little animation library sounded like too much fun to pass up on. Here‘s the animation I ended up creating, and for which I definitely, totally had to create a whole animation library _(hit the play button in the center)_:
 
 {% include video.html url="/assets/ok-video/unlock-projects.mov" caption="Unlock animation of projects after completing in-app purchase" %}
 
@@ -141,4 +141,4 @@ You‘re in luck, after much work v1.0 is out and working like a charm. I‘ve u
 
 ![Animation Planner logo](https://github.com/PimCoumans/AnimationPlanner/raw/main/Assets/AnimationPlanner.png)
 
-[github.com/PimCoumans/AnimationPlanner](https://github.com/PimCoumans/AnimationPlanner)
+[Get it here](https://github.com/PimCoumans/AnimationPlanner)
